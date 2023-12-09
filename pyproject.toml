@@ -1,0 +1,82 @@
+[project]
+name = "pyfun_morse"
+version = "0.1.0"
+description = "Morse code translator"
+authors = [{ name = "PaszaVonPomiot", email = "undisclosed@op.pl" }]
+requires-python = ">=3.12"
+readme = "README.md"
+license = { text = "GPL-3.0-only" }
+dependencies = []
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.black]
+line-length = 89
+target-version = ['py312']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.mypy_cache
+  | \.venv
+  | build
+  | cdk.out
+  | dist
+  | venv
+  | temp
+)/
+'''
+
+[tool.mypy]
+# plugins = "pydantic.mypy"
+python_version = "3.12"
+exclude = ["tests/", "temp/"]
+
+[tool.ruff]
+select = ["ALL"]
+ignore = [
+    "D",      # pydocstyle
+    "DJ",     # flake8-django
+    "ANN101", # Missing type annotation for `self` `cls` in method
+    "N805",   # First argument of a method should be named `self`
+    "EM101",  # Exception must not use a string literal, assign to variable first
+    "TRY003", # Avoid specifying long messages outside the exception class
+    "ANN102", # Missing type annotation for `cls` in classmethod
+    "EM102",  # Exception must not use an f-string literal, assign to variable first
+    "A003",   # Class attribute `type` is shadowing a python builtin
+    "FBT001", # Boolean positional arg in function definition
+    "B008",   # Do not perform function call `Depends` in argument defaults
+    "ARG001", # Unused function argument
+    "ANN401", # Dynamically typed expressions (typing.Any) are disallowed
+]
+fixable = ["ALL"]
+unfixable = []
+line-length = 89
+target-version = "py312"
+exclude = [".git", ".venv/*"]
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = [
+    "F401", # imported but unused
+]
+"tests/*" = [
+    "S101",    # Use of `assert` detected
+    "S105",    # Possible hardcoded password
+    "E501",    # Line too long
+    "PLR2004", # Magic value used in comparison, consider replacing 4 with a constant variable
+    "S311",    # Standard pseudo-random generators are not suitable for cryptographic purposes
+    "PLR0913", # Too many arguments to function call (8 > 5)
+]
+"*/docs/*" = [
+    "E501", # Line too long
+]
+
+[tool.pdm.dev-dependencies]
+test = ["pytest>=7.4.3"]
+lint = ["black>=23.11.0", "mypy>=1.7.1", "ruff>=0.1.7"]
+version = []
+git = ["pre-commit>=3.5.0"]
+
