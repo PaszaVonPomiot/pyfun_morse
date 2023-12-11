@@ -1,2 +1,6 @@
 class AlphabetValidationError(ValueError):
     ...
+
+
+class CodeCharactersValidationError(ValueError):
+    ...
