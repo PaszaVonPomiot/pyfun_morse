@@ -1,16 +1,23 @@
 # pyfun_morse
 Morse code translator
 
-# Technological requirements
+## Features
+- [x] Decodes Morse code to text
+- [x] Encodes text to Morse code
+- [ ] Accepts as input
+    - [x] string
+    - [ ] text file
+- [ ] Produces output as
+    - [x] string
+    - [ ] text file
+- [x] Configurable characters for dots and dashes
+- [x] Validates all inputs
+- [ ] CLI
+
+## Usage
+...
+
+## Technology
 - Python 3.12+
 
-# Functional requirements
-- decodes Morse code to text
-- encodes text to Morse code
-- accepts as input
-    - string
-    - text file
-- produces output as
-    - string
-    - text file
-- configurable characters for dots and dashes
+
