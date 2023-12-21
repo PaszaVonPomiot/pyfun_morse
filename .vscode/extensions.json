@@ -52,6 +52,16 @@
         },
         {
             "metadata": {
+                "id": "859e640c-c157-47da-8699-9080b81c8371",
+                "publisherId": "ms-python.black-formatter",
+                "publisherDisplayName": "ms-python"
+            },
+            "name": "black-formatter",
+            "publisher": "ms-python",
+            "version": "2023.6.0"
+        },
+        {
+            "metadata": {
                 "id": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5",
                 "publisherId": "ms-python.python",
                 "publisherDisplayName": "ms-python"

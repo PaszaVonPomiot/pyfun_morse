@@ -22,12 +22,12 @@
     "ruff.lint.run": "onType",
     "ruff.showNotifications": "onError",
     "[python]": {
-        "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.fixAll": true,
             "source.organizeImports": true
-        }
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
     },
     "[toml]": {
         "editor.formatOnSave": true,
@@ -35,5 +35,5 @@
     },
     "[json]": {
         "editor.formatOnSave": true
-    }
+    },
 }
