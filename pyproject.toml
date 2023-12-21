@@ -51,6 +51,7 @@ ignore = [
     "B008",   # Do not perform function call `Depends` in argument defaults
     "ARG001", # Unused function argument
     "ANN401", # Dynamically typed expressions (typing.Any) are disallowed
+    "UP015",  # Unnecessary open() mode parameters
 ]
 fixable = ["ALL"]
 unfixable = []
@@ -79,4 +80,3 @@ test = ["pytest>=7.4.3"]
 lint = ["black>=23.11.0", "mypy>=1.7.1", "ruff>=0.1.7"]
 version = []
 git = ["pre-commit>=3.5.0"]
-

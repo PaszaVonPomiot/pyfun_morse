@@ -7,26 +7,33 @@
     },
     "extensions.ignoreRecommendations": true,
     "explorer.confirmDragAndDrop": false,
-    "editor.formatOnSave": true,
     "editor.minimap.enabled": true,
     "editor.fontFamily": "'Cascadia Code', Consolas",
     "editor.cursorSurroundingLines": 1,
     "editor.minimap.scale": 2,
     "editor.minimap.maxColumn": 100,
-    "black-formatter.importStrategy": "fromEnvironment",
-    "files.trimFinalNewlines": true,
     "files.eol": "\n",
-    "json.format.enable": true,
     "json.format.keepLines": false,
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "PyCharm Night Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Default Dark+",
     "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
     "python.languageServer": "Pylance",
     "python.terminal.activateEnvironment": true,
+    "ruff.lint.run": "onType",
+    "ruff.showNotifications": "onError",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true,
+            "source.organizeImports": true
+        }
     },
     "[toml]": {
+        "editor.formatOnSave": true,
         "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "[json]": {
+        "editor.formatOnSave": true
     }
 }
