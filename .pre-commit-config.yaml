@@ -42,7 +42,7 @@ repos:
   - id: check-yaml
   - id: check-json
   - id: end-of-file-fixer
-    name: fix-eof-newline
+    name: fix eof newline
     types_or: [python, yaml, toml]
   - id: no-commit-to-branch
     name: protect master branch
