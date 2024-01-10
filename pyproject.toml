@@ -6,7 +6,9 @@ authors = [{ name = "PaszaVonPomiot", email = "undisclosed@op.pl" }]
 requires-python = ">=3.12"
 readme = "README.md"
 license = { text = "GPL-3.0-only" }
-dependencies = []
+dependencies = [
+    "clik>=0.92.4",
+]
 
 [build-system]
 requires = ["pdm-backend"]

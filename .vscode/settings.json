@@ -24,8 +24,8 @@
     "[python]": {
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.fixAll": true,
-            "source.organizeImports": true
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
         },
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
@@ -35,5 +35,5 @@
     },
     "[json]": {
         "editor.formatOnSave": true
-    },
+    }
 }
