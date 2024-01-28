@@ -1,0 +1,39 @@
+{
+    "files.exclude": {
+        "__pycache__": true,
+        ".pdm-build": true,
+        ".mypy_cache": true,
+        ".ruff_cache": true
+    },
+    "extensions.ignoreRecommendations": true,
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": true,
+    "editor.fontFamily": "'Cascadia Code', Consolas",
+    "editor.cursorSurroundingLines": 1,
+    "editor.minimap.scale": 2,
+    "editor.minimap.maxColumn": 100,
+    "files.eol": "\n",
+    "json.format.keepLines": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Default Dark+",
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+    "python.languageServer": "Pylance",
+    "python.terminal.activateEnvironment": true,
+    "ruff.lint.run": "onType",
+    "ruff.showNotifications": "onError",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "[toml]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "[json]": {
+        "editor.formatOnSave": true
+    }
+}

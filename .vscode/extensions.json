@@ -1,0 +1,104 @@
+{
+    "plugins": [
+        {
+            "metadata": {
+                "id": "c2ca9b43-fa38-44fc-928e-5125970b9c00",
+                "publisherId": "charliermarsh.ruff",
+                "publisherDisplayName": "charliermarsh"
+            },
+            "name": "ruff",
+            "publisher": "charliermarsh",
+            "version": "2023.58.0"
+        },
+        {
+            "metadata": {
+                "id": "f60a60a6-95ba-42d4-b41c-3d24c1b89588",
+                "publisherId": "EditorConfig.EditorConfig",
+                "publisherDisplayName": "EditorConfig"
+            },
+            "name": "EditorConfig",
+            "publisher": "EditorConfig",
+            "version": "0.16.4"
+        },
+        {
+            "metadata": {
+                "id": "261cac81-cd7b-4555-bb41-0c2d2bcd3e70",
+                "publisherId": "Gruntfuggly.todo-tree",
+                "publisherDisplayName": "Gruntfuggly"
+            },
+            "name": "todo-tree",
+            "publisher": "Gruntfuggly",
+            "version": "0.0.226"
+        },
+        {
+            "metadata": {
+                "id": "4012f8d4-6f43-4dde-8251-28939509032b",
+                "publisherId": "josh-walters.vscode-ext-import-export",
+                "publisherDisplayName": "josh-walters"
+            },
+            "name": "vscode-ext-import-export",
+            "publisher": "josh-walters",
+            "version": "0.0.9"
+        },
+        {
+            "metadata": {
+                "id": "0479fc1c-3d67-49f9-b087-fb9069afe48f",
+                "publisherId": "ms-azuretools.vscode-docker",
+                "publisherDisplayName": "ms-azuretools"
+            },
+            "name": "vscode-docker",
+            "publisher": "ms-azuretools",
+            "version": "1.28.0"
+        },
+        {
+            "metadata": {
+                "id": "859e640c-c157-47da-8699-9080b81c8371",
+                "publisherId": "ms-python.black-formatter",
+                "publisherDisplayName": "ms-python"
+            },
+            "name": "black-formatter",
+            "publisher": "ms-python",
+            "version": "2023.6.0"
+        },
+        {
+            "metadata": {
+                "id": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5",
+                "publisherId": "ms-python.python",
+                "publisherDisplayName": "ms-python"
+            },
+            "name": "python",
+            "publisher": "ms-python",
+            "version": "2023.22.1"
+        },
+        {
+            "metadata": {
+                "id": "364d2426-116a-433a-a5d8-a5098dc3afbd",
+                "publisherId": "ms-python.vscode-pylance",
+                "publisherDisplayName": "ms-python"
+            },
+            "name": "vscode-pylance",
+            "publisher": "ms-python",
+            "version": "2023.12.1"
+        },
+        {
+            "metadata": {
+                "id": "5db78037-f674-459f-a236-db622c427c5b",
+                "publisherId": "PKief.material-icon-theme",
+                "publisherDisplayName": "PKief"
+            },
+            "name": "material-icon-theme",
+            "publisher": "PKief",
+            "version": "4.32.0"
+        },
+        {
+            "metadata": {
+                "id": "b2215d5f-675e-4a2b-b6ac-1ca737518b78",
+                "publisherId": "tamasfe.even-better-toml",
+                "publisherDisplayName": "tamasfe"
+            },
+            "name": "even-better-toml",
+            "publisher": "tamasfe",
+            "version": "0.19.2"
+        }
+    ]
+}
